@@ -145,14 +145,14 @@ if($_SESSION["profile"] == "Special"){
                       Taxes and Total Price
                      ======================================-->
                       
-                    <div class="col-xs-8 pull-right">
+                    <!-- <div class="col-xs-8 pull-right">
                     
                       <table class="table">
                       
                             <thead>
 
                                 <th>Discount</th>
-                                <!-- <th>Taxes</th> -->
+                                <th>Taxes</th>
                                 <th>Total</th>    
                             
                             </thead>
@@ -172,7 +172,7 @@ if($_SESSION["profile"] == "Special"){
                                   </div>
                                 </td>
 
-                                <!-- <td style="width:30%">
+                                <td style="width:30%">
                                   <div class="input-group">
                                     <input type="number" class="form-control input-lg" value="0" min="0" id="newTaxSale" name="newTaxSale" placeholder="0" required>
                                     
@@ -181,7 +181,7 @@ if($_SESSION["profile"] == "Special"){
                                     
                                     <span class="input-group-addon"><i class="fa fa-percent"></i></span>
                                   </div>
-                                </td> -->
+                                </td>
 
                                 <td style="width:50%">
 
@@ -210,13 +210,13 @@ if($_SESSION["profile"] == "Special"){
                     
                     </div>
 
-                  <hr>
+                  <hr> -->
 
                 <!--=====================================
                   Payment Method
                   ======================================-->
 
-                  <div class="form-group row">
+                  <!-- <div class="form-group row">
                   
                     <div class="col-xs-6" style="padding-right: 0"> 
                     
@@ -237,7 +237,7 @@ if($_SESSION["profile"] == "Special"){
 
                     <div class="paymentMethodBoxes"></div>
 
-                    <input type="hidden" name="listPaymentMethod" id="listPaymentMethod" required>
+                    <input type="hidden" name="listPaymentMethod" id="listPaymentMethod" required> -->
                     
                   </div>
 

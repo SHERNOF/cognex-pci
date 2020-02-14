@@ -653,7 +653,11 @@ $("#newPaymentMethod").change(function(){
 
 		// Adding format to the price
 
-		$('#newCashValue').number( true, 2);
+		// $('#newCashValue').number( true, 2);
+    // $('#newCashChange').number( true, 2);
+
+
+    $('#newCashValue').number( true);
     $('#newCashChange').number( true, 2);
 
 
